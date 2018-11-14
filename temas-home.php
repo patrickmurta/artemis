@@ -17,12 +17,12 @@
 				            <h3><a title="<?php the_title_attribute() ?>" href="<?php the_permalink(); ?>" ><?php the_title() ?></a></h3>
 				            <p><?php the_excerpt() ?></p>
 				            <p><?php the_tags('Tags: ', ', '); ?></p>
-				        </div><!-- col -->
+				        </div>
 				        <?php } ?>
 				        <?php endwhile; endif; ?>
-			        </div><!-- row -->
-			    </div><!-- container -->
-			</section><!-- services -->
+			        </div>
+			    </div>
+			</section>
 			<?php wp_reset_query(); ?>
 		</div>
 	</div>
